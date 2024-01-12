@@ -9,7 +9,7 @@
 
 int square(std::future<int>&ft){
     // std::this_thread::sleep_for(std::chrono::seconds(1));
-    std::cout<<"\nHello from square";
+    std::cout<<"\nHello from square\n";
     int number=ft.get();
     return number*number;
 }
